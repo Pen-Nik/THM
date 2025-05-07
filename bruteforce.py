@@ -8,7 +8,7 @@ url = "http://python.thm/labs/lab1/index.php"
 
 username = "Mark"
 
-# Generating 4-digit numeric passwords (0000-9999)
+# Generating 3-digit numeric and one uppercase Alphabet passwords (0000-9999)
 
 password_list = [f"{str(i)*3}{chr(j)}" for i in range(10) for j in range(65, 91)]
 
